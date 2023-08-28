@@ -2,8 +2,8 @@ import express from 'express'
 
 const app = express()
 
-app.listen(5001, () => console.log("API Running on PORT 5001"))
+app.listen(2402, () => console.log("API Running on PORT 2402"))
 
 app.get('/', (req, res) => {
-    res.json('My API Running on EC2')
+    res.redirect("https://dhairyashah.dev/")
 })
